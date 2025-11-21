@@ -1,8 +1,0 @@
-services:
-  caddy:
-    build: .
-    ports:
-      - "22218:80"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile    # 映射Caddyfile配置
-    restart: always

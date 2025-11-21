@@ -1,4 +1,4 @@
-my.wzygy.xyz {
+127.0.0.1 {
     root * /var/www/html
     encode zstd gzip
     file_server
